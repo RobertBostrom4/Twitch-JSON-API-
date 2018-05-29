@@ -1,0 +1,32 @@
+{
+    "extends": [
+      "airbnb",
+      "plugin:react/recommended",
+      "prettier",
+      "plugin:prettier/recommended",
+      "prettier/flowtype",
+      "prettier/react",
+      "prettier/standard"
+    ],
+    "plugins": [
+      "react",
+      "prettier"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "jquery": true,
+      "browser": true
+    },
+    "rules": {
+      "prettier/prettier": ["error", { "singleQuote": true }],
+      "linebreak-style": 0,
+      "no-console": "off"
+    }
+  }
